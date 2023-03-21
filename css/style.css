@@ -1,0 +1,78 @@
+/* Default styles */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;700;800;900&display=swap');
+
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+:root {
+  --color-negro: #282d33;
+  --menu-hover: #282d33;
+  --fondo-footer: #30363d;
+  --color-footer: #898989;
+}
+header {
+  background-color: #fff;
+}
+
+footer {
+  background-color: var(--fondo-footer);
+  color: var(--color-footer);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+#hero slides {
+  text-align: center;
+  padding: 20px 0px;
+}
+.btn-light {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 12px 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.card {
+  text-align: center;
+  border-color: #fff;
+}
+.card-header {
+  background-color: #fff;
+  border-color: #fff;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--color-footer);
+  padding: 10px 0;
+}
+#intro {
+  padding: 50px 0;
+}
+#cta {
+  background-image: url('../img/home-grid-banner.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 60px 0px;
+  color: #fff;
+}
+#cta p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+#clients {
+  padding: 60px 0;
+}
